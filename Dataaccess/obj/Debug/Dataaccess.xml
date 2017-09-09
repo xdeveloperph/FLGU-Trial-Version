@@ -1,0 +1,626 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Dataaccess
+</name>
+</assembly>
+<members>
+<member name="M:Dataaccess.flguEntities.#ctor">
+	<summary>
+ Initializes a new flguEntities object using the connection string found in the 'flguEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new flguEntities object.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new flguEntities object.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.barangays">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.cities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.diseases">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.logs">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.puroks">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.socialstatus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.households">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.citizens">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.accounts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.occupations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.flguEntities.citizencategories">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTobarangays(Dataaccess.barangay)">
+	<summary>
+ Deprecated Method for adding a new object to the barangays EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTocities(Dataaccess.city)">
+	<summary>
+ Deprecated Method for adding a new object to the cities EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTodiseases(Dataaccess.disease)">
+	<summary>
+ Deprecated Method for adding a new object to the diseases EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTologs(Dataaccess.log)">
+	<summary>
+ Deprecated Method for adding a new object to the logs EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTopuroks(Dataaccess.purok)">
+	<summary>
+ Deprecated Method for adding a new object to the puroks EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTosocialstatus(Dataaccess.socialstatu)">
+	<summary>
+ Deprecated Method for adding a new object to the socialstatus EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTohouseholds(Dataaccess.household)">
+	<summary>
+ Deprecated Method for adding a new object to the households EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTocitizens(Dataaccess.citizen)">
+	<summary>
+ Deprecated Method for adding a new object to the citizens EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddToaccounts(Dataaccess.account)">
+	<summary>
+ Deprecated Method for adding a new object to the accounts EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTooccupations(Dataaccess.occupation)">
+	<summary>
+ Deprecated Method for adding a new object to the occupations EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:Dataaccess.flguEntities.AddTocitizencategories(Dataaccess.citizencategory)">
+	<summary>
+ Deprecated Method for adding a new object to the citizencategories EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="T:Dataaccess.flguEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.account.Createaccount(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Create a new account object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="fname">Initial value of the fname property.</param>
+	<param name="lname">Initial value of the lname property.</param>
+	<param name="mname">Initial value of the mname property.</param>
+	<param name="username">Initial value of the username property.</param>
+	<param name="password">Initial value of the password property.</param>
+	<param name="level">Initial value of the level property.</param>
+	<param name="create">Initial value of the create property.</param>
+	<param name="edit">Initial value of the edit property.</param>
+	<param name="delete">Initial value of the delete property.</param>
+	<param name="export">Initial value of the export property.</param>
+	<param name="import">Initial value of the import property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.account.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.fname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.lname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.mname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.username">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.password">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.level">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.create">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.edit">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.delete">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.export">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.import">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.account.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.account">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.barangay.Createbarangay(System.Int32,System.String,System.DateTime,System.Int32,System.Boolean)">
+	<summary>
+ Create a new barangay object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="name">Initial value of the name property.</param>
+	<param name="datecreated">Initial value of the datecreated property.</param>
+	<param name="cityid">Initial value of the cityid property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.barangay.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.barangay.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.barangay.datecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.barangay.cityid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.barangay.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.barangay">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.citizen.Createcitizen(System.Int32,System.Int32,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.Int32,System.DateTime,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.DateTime,System.Boolean)">
+	<summary>
+ Create a new citizen object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="hid">Initial value of the hid property.</param>
+	<param name="fname">Initial value of the fname property.</param>
+	<param name="lname">Initial value of the lname property.</param>
+	<param name="mname">Initial value of the mname property.</param>
+	<param name="birthdate">Initial value of the birthdate property.</param>
+	<param name="contactnum">Initial value of the contactnum property.</param>
+	<param name="tin">Initial value of the tin property.</param>
+	<param name="philhealth">Initial value of the philhealth property.</param>
+	<param name="philhealthtype">Initial value of the philhealthtype property.</param>
+	<param name="philhealthexp">Initial value of the philhealthexp property.</param>
+	<param name="income">Initial value of the income property.</param>
+	<param name="bloodtypeid">Initial value of the bloodtypeid property.</param>
+	<param name="occupation">Initial value of the occupation property.</param>
+	<param name="osyisy">Initial value of the osyisy property.</param>
+	<param name="pwe">Initial value of the pwe property.</param>
+	<param name="diseased">Initial value of the diseased property.</param>
+	<param name="gender">Initial value of the Gender property.</param>
+	<param name="category">Initial value of the category property.</param>
+	<param name="datecreated">Initial value of the datecreated property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.citizen.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.hid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.fname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.lname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.mname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.birthdate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.contactnum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.tin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.philhealth">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.philhealthtype">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.philhealthexp">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.income">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.bloodtypeid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.occupation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.osyisy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.pwe">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.diseased">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.Gender">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.category">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.datecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizen.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.citizen">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.citizencategory.Createcitizencategory(System.Int32,System.String,System.DateTime,System.Boolean)">
+	<summary>
+ Create a new citizencategory object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="name">Initial value of the name property.</param>
+	<param name="creation">Initial value of the creation property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.citizencategory.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizencategory.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizencategory.creation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.citizencategory.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.citizencategory">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.city.Createcity(System.Int32,System.String,System.DateTime,System.Boolean)">
+	<summary>
+ Create a new city object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="name">Initial value of the name property.</param>
+	<param name="datecreated">Initial value of the datecreated property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.city.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.city.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.city.datecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.city.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.city">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.disease.Createdisease(System.Int32,System.String,System.DateTime,System.Boolean)">
+	<summary>
+ Create a new disease object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="name">Initial value of the name property.</param>
+	<param name="datecreated">Initial value of the datecreated property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.disease.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.disease.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.disease.datecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.disease.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.disease">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.household.Createhousehold(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.DateTime,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ Create a new household object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="hnumber">Initial value of the hnumber property.</param>
+	<param name="famid">Initial value of the famid property.</param>
+	<param name="socialCommunity">Initial value of the SocialCommunity property.</param>
+	<param name="familyname">Initial value of the familyname property.</param>
+	<param name="datecreated">Initial value of the datecreated property.</param>
+	<param name="purokid">Initial value of the purokid property.</param>
+	<param name="cityid">Initial value of the cityid property.</param>
+	<param name="barangayid">Initial value of the barangayid property.</param>
+	<param name="categoryid">Initial value of the categoryid property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.household.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.hnumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.famid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.SocialCommunity">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.familyname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.datecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.purokid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.cityid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.barangayid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.categoryid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.household.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.household">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.log.Createlog(System.Int32,System.Int32,System.String,System.String,System.Int32,System.DateTime,System.Boolean)">
+	<summary>
+ Create a new log object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="userid">Initial value of the userid property.</param>
+	<param name="action">Initial value of the Action property.</param>
+	<param name="tableName">Initial value of the TableName property.</param>
+	<param name="recordId">Initial value of the RecordId property.</param>
+	<param name="datecreated">Initial value of the datecreated property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.log.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.log.userid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.log.Action">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.log.TableName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.log.RecordId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.log.datecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.log.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.log">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.occupation.Createoccupation(System.Int32,System.String,System.DateTime,System.Boolean)">
+	<summary>
+ Create a new occupation object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="name">Initial value of the name property.</param>
+	<param name="datecreated">Initial value of the datecreated property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.occupation.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.occupation.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.occupation.datecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.occupation.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.occupation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.purok.Createpurok(System.Int32,System.String,System.DateTime,System.Int32,System.Boolean)">
+	<summary>
+ Create a new purok object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="name">Initial value of the name property.</param>
+	<param name="datecreated">Initial value of the datecreated property.</param>
+	<param name="barangayid">Initial value of the barangayid property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.purok.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.purok.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.purok.datecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.purok.barangayid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.purok.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.purok">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:Dataaccess.socialstatu.Createsocialstatu(System.Int32,System.String,System.String,System.Boolean)">
+	<summary>
+ Create a new socialstatu object.
+ </summary>
+	<param name="id">Initial value of the id property.</param>
+	<param name="name">Initial value of the name property.</param>
+	<param name="description">Initial value of the description property.</param>
+	<param name="remove">Initial value of the remove property.</param>
+</member><member name="P:Dataaccess.socialstatu.id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.socialstatu.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.socialstatu.description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.socialstatu.remove">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:Dataaccess.socialstatu">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:Dataaccess.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Dataaccess.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Dataaccess.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

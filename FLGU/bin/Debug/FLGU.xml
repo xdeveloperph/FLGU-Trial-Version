@@ -1,0 +1,348 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FLGU
+</name>
+</assembly>
+<members>
+<member name="P:FLGU.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources._23">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Actions_document_save_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Actions_go_next_view_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Actions_go_previous_view_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Actions_trash_empty_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Actions_view_list_details_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Administrator_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Administrator_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.application_delete_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.back_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.background_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.background_wallpapers_blue_opera_light_images_19749">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.background_wallpapers_blue_opera_light_images_197491">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.background_wallpapers_simple_opera_pictures_19703">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.BIR_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.black_minimalistic_00360944">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.black_minimalistic_003609441">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Button_Add_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Button_Next_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Button_Previous_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.delete_file_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.edit_validated_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Excel_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.family_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.formbackground2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.formbackground3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.gif_load">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Home_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Home_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.philhealth_logo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.Printer_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.search_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.user_add_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.User_Coat_Red_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FLGU.My.Resources.Resources.User_Group_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:FLGU.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:FLGU.flguDataSet.accountsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.barangayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.citizencategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.citizensDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.cityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.diseaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.householdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.occupationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.purokDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.accountsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.barangayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.citizencategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.citizensRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.cityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.diseaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.householdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.occupationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.purokRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FLGU.flguDataSet.accountsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet.barangayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet.citizencategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet.citizensRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet.cityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet.diseaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet.householdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet.occupationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet.purokRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FLGU.flguDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.accountsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.barangayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.citizencategoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.citizensTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.cityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.diseaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.householdTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.occupationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.purokTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FLGU.flguDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(FLGU.flguDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FLGU.flguDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(FLGU.flguDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FLGU.flguDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(FLGU.flguDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FLGU.flguDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FLGU.flguDataSetTableAdapters.TableAdapterManager.UpdateAll(FLGU.flguDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FLGU.flguDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

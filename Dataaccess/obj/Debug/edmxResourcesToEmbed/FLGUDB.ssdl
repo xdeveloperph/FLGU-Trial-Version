@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="flguModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="flguModelStoreContainer">
+    <EntitySet Name="accounts" EntityType="flguModel.Store.accounts" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="barangay" EntityType="flguModel.Store.barangay" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="citizencategory" EntityType="flguModel.Store.citizencategory" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="citizens" EntityType="flguModel.Store.citizens" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="city" EntityType="flguModel.Store.city" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="disease" EntityType="flguModel.Store.disease" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="household" EntityType="flguModel.Store.household" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="logs" EntityType="flguModel.Store.logs" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="occupation" EntityType="flguModel.Store.occupation" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="purok" EntityType="flguModel.Store.purok" store:Type="Tables" Schema="flgu" />
+    <EntitySet Name="socialstatus" EntityType="flguModel.Store.socialstatus" store:Type="Tables" Schema="flgu" />
+  </EntityContainer>
+  <EntityType Name="accounts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fname" Type="text" Nullable="false" />
+    <Property Name="lname" Type="text" Nullable="false" />
+    <Property Name="mname" Type="text" Nullable="false" />
+    <Property Name="username" Type="text" Nullable="false" />
+    <Property Name="password" Type="text" Nullable="false" />
+    <Property Name="level" Type="int" Nullable="false" />
+    <Property Name="create" Type="bool" Nullable="false" />
+    <Property Name="edit" Type="bool" Nullable="false" />
+    <Property Name="delete" Type="bool" Nullable="false" />
+    <Property Name="export" Type="bool" Nullable="false" />
+    <Property Name="import" Type="bool" Nullable="false" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="barangay">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="text" Nullable="false" />
+    <Property Name="datecreated" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cityid" Type="int" Nullable="false" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="citizencategory">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="text" Nullable="false" />
+    <Property Name="creation" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="citizens">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="hid" Type="int" Nullable="false" />
+    <Property Name="fname" Type="text" Nullable="false" />
+    <Property Name="lname" Type="text" Nullable="false" />
+    <Property Name="mname" Type="text" Nullable="false" />
+    <Property Name="birthdate" Type="datetime" Nullable="false" />
+    <Property Name="contactnum" Type="text" Nullable="false" />
+    <Property Name="tin" Type="text" Nullable="false" />
+    <Property Name="philhealth" Type="text" Nullable="false" />
+    <Property Name="philhealthtype" Type="int" Nullable="false" />
+    <Property Name="philhealthexp" Type="datetime" Nullable="false" />
+    <Property Name="income" Type="text" Nullable="false" />
+    <Property Name="bloodtypeid" Type="text" Nullable="false" />
+    <Property Name="occupation" Type="int" Nullable="false" />
+    <Property Name="osyisy" Type="text" Nullable="false" />
+    <Property Name="pwe" Type="text" Nullable="false" />
+    <Property Name="diseased" Type="int" Nullable="false" />
+    <Property Name="Gender" Type="varchar" Nullable="false" MaxLength="5" />
+    <Property Name="category" Type="int" Nullable="false" />
+    <Property Name="datecreated" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="city">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="text" Nullable="false" />
+    <Property Name="datecreated" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="disease">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="text" Nullable="false" />
+    <Property Name="datecreated" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="household">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="hnumber" Type="int" Nullable="false" />
+    <Property Name="famid" Type="int" Nullable="false" />
+    <Property Name="SocialCommunity" Type="int" Nullable="false" />
+    <Property Name="familyname" Type="text" Nullable="false" />
+    <Property Name="datecreated" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="purokid" Type="int" Nullable="false" />
+    <Property Name="cityid" Type="int" Nullable="false" />
+    <Property Name="barangayid" Type="int" Nullable="false" />
+    <Property Name="categoryid" Type="int" Nullable="false" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="logs">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="int" Nullable="false" />
+    <Property Name="Action" Type="text" Nullable="false" />
+    <Property Name="TableName" Type="text" Nullable="false" />
+    <Property Name="RecordId" Type="int" Nullable="false" />
+    <Property Name="datecreated" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="occupation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="text" Nullable="false" />
+    <Property Name="datecreated" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="purok">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="text" Nullable="false" />
+    <Property Name="datecreated" Type="datetime" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="barangayid" Type="int" Nullable="false" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="socialstatus">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="text" Nullable="false" />
+    <Property Name="description" Type="text" Nullable="false" />
+    <Property Name="remove" Type="bool" Nullable="false" />
+  </EntityType>
+</Schema>

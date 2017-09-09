@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="flguModelStoreContainer" CdmEntityContainer="flguEntities">
+    <EntitySetMapping Name="barangays">
+      <EntityTypeMapping TypeName="flguModel.barangay">
+        <MappingFragment StoreEntitySet="barangay">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="cityid" ColumnName="cityid" />
+          <ScalarProperty Name="remove" ColumnName="remove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cities">
+      <EntityTypeMapping TypeName="flguModel.city">
+        <MappingFragment StoreEntitySet="city">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="remove" ColumnName="remove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="diseases">
+      <EntityTypeMapping TypeName="flguModel.disease">
+        <MappingFragment StoreEntitySet="disease">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="remove" ColumnName="remove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logs">
+      <EntityTypeMapping TypeName="flguModel.log">
+        <MappingFragment StoreEntitySet="logs">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="Action" ColumnName="Action" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="RecordId" ColumnName="RecordId" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="remove" ColumnName="remove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="puroks">
+      <EntityTypeMapping TypeName="flguModel.purok">
+        <MappingFragment StoreEntitySet="purok">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="barangayid" ColumnName="barangayid" />
+          <ScalarProperty Name="remove" ColumnName="remove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="socialstatus">
+      <EntityTypeMapping TypeName="flguModel.socialstatu">
+        <MappingFragment StoreEntitySet="socialstatus">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="remove" ColumnName="remove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="households">
+      <EntityTypeMapping TypeName="flguModel.household">
+        <MappingFragment StoreEntitySet="household">
+          <ScalarProperty Name="remove" ColumnName="remove" />
+          <ScalarProperty Name="categoryid" ColumnName="categoryid" />
+          <ScalarProperty Name="barangayid" ColumnName="barangayid" />
+          <ScalarProperty Name="cityid" ColumnName="cityid" />
+          <ScalarProperty Name="purokid" ColumnName="purokid" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="familyname" ColumnName="familyname" />
+          <ScalarProperty Name="SocialCommunity" ColumnName="SocialCommunity" />
+          <ScalarProperty Name="famid" ColumnName="famid" />
+          <ScalarProperty Name="hnumber" ColumnName="hnumber" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="citizens">
+      <EntityTypeMapping TypeName="flguModel.citizen">
+        <MappingFragment StoreEntitySet="citizens">
+          <ScalarProperty Name="remove" ColumnName="remove" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="diseased" ColumnName="diseased" />
+          <ScalarProperty Name="pwe" ColumnName="pwe" />
+          <ScalarProperty Name="osyisy" ColumnName="osyisy" />
+          <ScalarProperty Name="occupation" ColumnName="occupation" />
+          <ScalarProperty Name="bloodtypeid" ColumnName="bloodtypeid" />
+          <ScalarProperty Name="income" ColumnName="income" />
+          <ScalarProperty Name="philhealthexp" ColumnName="philhealthexp" />
+          <ScalarProperty Name="philhealthtype" ColumnName="philhealthtype" />
+          <ScalarProperty Name="philhealth" ColumnName="philhealth" />
+          <ScalarProperty Name="tin" ColumnName="tin" />
+          <ScalarProperty Name="contactnum" ColumnName="contactnum" />
+          <ScalarProperty Name="birthdate" ColumnName="birthdate" />
+          <ScalarProperty Name="mname" ColumnName="mname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="hid" ColumnName="hid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accounts">
+      <EntityTypeMapping TypeName="flguModel.account">
+        <MappingFragment StoreEntitySet="accounts">
+          <ScalarProperty Name="remove" ColumnName="remove" />
+          <ScalarProperty Name="import" ColumnName="import" />
+          <ScalarProperty Name="export" ColumnName="export" />
+          <ScalarProperty Name="delete" ColumnName="delete" />
+          <ScalarProperty Name="edit" ColumnName="edit" />
+          <ScalarProperty Name="create" ColumnName="create" />
+          <ScalarProperty Name="level" ColumnName="level" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="mname" ColumnName="mname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="occupations">
+      <EntityTypeMapping TypeName="flguModel.occupation">
+        <MappingFragment StoreEntitySet="occupation">
+          <ScalarProperty Name="remove" ColumnName="remove" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="citizencategories">
+      <EntityTypeMapping TypeName="flguModel.citizencategory">
+        <MappingFragment StoreEntitySet="citizencategory">
+          <ScalarProperty Name="remove" ColumnName="remove" />
+          <ScalarProperty Name="creation" ColumnName="creation" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
